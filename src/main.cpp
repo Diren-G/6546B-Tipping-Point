@@ -82,9 +82,43 @@ void pre_auton(void) {
 /*---------------------------------------------------------------------------*/
 
 void autonomous(void) {
-  // ..........................................................................
-  // Insert autonomous user code here.
-  // ..........................................................................
+  //exstensions and start-up
+  /*
+  extend the mobile goal clamp so its out
+  update intake to always spin
+  */
+  
+  // white
+  /*
+  forward to location which is roughly near the goal
+  use vision to align 
+  while (ultrasonic distance is less than x distance) move forward
+      WILL NEED A LIMIT SO THAT WE DONT GO PAST AND INVALIDATE OUR TEAMS AUTON
+  move forward for overbite
+  snag yellow
+  rotate left about 45
+  forward to location which is roughly near the goal
+  use vision to align
+  while (ultrasonic distance is less than x distance) move forward
+  move forward for overbite
+  snag red
+  */
+
+  //blue
+  /*
+  forward to location which is roughly near the goal
+  use vision to align 
+  while (ultrasonic distance is less than x distance) move forward
+      WILL NEED A LIMIT SO WE DONT GO PAST AND INVALIDATE THE AUTON
+  move forward for overbite
+  snag yellow
+  rotate right about 170
+  forward to location which is roughly near the goal
+  use vision to align
+  while (ultrasonic distance is less than x distance) move forward
+  move forward for overbite
+  snag red
+  */
 }
 
 /*---------------------------------------------------------------------------*/
